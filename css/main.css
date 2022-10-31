@@ -12,7 +12,7 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,6 +28,7 @@ html {
   width: 87%;
   max-width: 300px;
   height: max-content;
+  margin: 40px 0;
   padding: 20px 20px 40px;
   text-align: center;
   background-color: var(--white);
